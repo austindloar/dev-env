@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-sudo pacman -S --needed --noconfirm zsh
+sudo pacman -S --needed --noconfirm zsh ttf-meslo-nerd
 chsh -s /usr/bin/zsh
