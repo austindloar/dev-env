@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --needed --noconfirm zsh
-sudo chsh -s $(which zsh)
+chsh -s /usr/bin/zsh
