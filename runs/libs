@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-sudo pacman -S tree-sitter-cli
-
-git clone git@github.com:junegunn/fzf.git $HOME/personal/fzf
-$HOME/personal/fzf/install
