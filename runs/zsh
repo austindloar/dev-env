@@ -1,4 +1,4 @@
-#!/bin/usr/env bash
+#!/usr/bin/env bash
 
-sudo pacman -S --needed --no-confirm zsh
+sudo pacman -S --needed --noconfirm zsh
 sudo chsh -s $(which zsh)
