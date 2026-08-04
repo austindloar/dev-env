@@ -228,4 +228,6 @@ bar {
     status_command i3status
 }
 
+exec_always gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
 include /etc/sway/config.d/*
