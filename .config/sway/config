@@ -232,4 +232,6 @@ exec_always gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 output eDP-1 scale 1.5
 
+default_border none
+
 include /etc/sway/config.d/*
