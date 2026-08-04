@@ -1,0 +1,4 @@
+#!/bin/usr/env bash
+
+sudo pacman -S --needed --no-confirm zsh
+sudo chsh -s $(which zsh)
