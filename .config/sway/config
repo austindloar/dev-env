@@ -230,4 +230,6 @@ bar {
 
 exec_always gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+output eDP-1 scale 1.5
+
 include /etc/sway/config.d/*
