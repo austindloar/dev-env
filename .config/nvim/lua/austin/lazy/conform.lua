@@ -21,7 +21,8 @@ return {
             format_on_save = {
                 timeout_ms = 500,
                 lsp_format = "fallback",
-            }
+            },
+            notify_no_formatters = true
         })
     end
 }
