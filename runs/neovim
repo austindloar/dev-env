@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --needed --noconfirm neovim
+
+sudo npm install -g @olrtg/emmet-language-server
