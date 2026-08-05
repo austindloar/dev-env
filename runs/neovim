@@ -3,3 +3,4 @@
 sudo pacman -S --needed --noconfirm neovim nodejs npm
 
 sudo npm install -g @olrtg/emmet-language-server
+sudo npm install -g vscode-langservers-extracted
