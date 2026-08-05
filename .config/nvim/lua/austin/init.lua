@@ -1,5 +1,6 @@
 require("austin.set")
 require("austin.lsp")
+require("austin.lazy_init")
 
 vim.api.nvim_create_autocmd("FileType", {
     pattern = {
