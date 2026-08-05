@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 tmux neww -n neovim
+tmux send-keys -t "neovim" "nvim ." 
 tmux neww -n background
