@@ -57,3 +57,4 @@ copy_file .gitconfig $HOME
 copy_file .ssh/config $HOME/.ssh
 copy_file .zshrc $HOME
 copy_file .p10k.zsh $HOME
+copy_file .ready-tmux $HOME
