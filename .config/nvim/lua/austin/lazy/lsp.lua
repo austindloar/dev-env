@@ -3,6 +3,7 @@ return {
     dependencies = {
         "mason-org/mason.nvim",
         "mason-org/mason-lspconfig.nvim",
+        "WhoIsSethDaniel/mason-tool-installer.nvim",
         "hrsh7th/cmp-nvim-lsp",
         "hrsh7th/cmp-buffer",
         "hrsh7th/cmp-path",
@@ -45,6 +46,12 @@ return {
                         }
                     }
                 end
+            }
+        })
+
+        require('mason-tool-installer').setup({
+            ensure_installed = {
+                "prettier"
             }
         })
 
