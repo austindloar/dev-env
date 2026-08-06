@@ -1,5 +1,4 @@
 require("austin.set")
-require("austin.lsp")
 require("austin.lazy_init")
 
 vim.api.nvim_create_autocmd("FileType", {
@@ -16,7 +15,7 @@ vim.api.nvim_create_autocmd("FileType", {
         "scss",
         "svelte",
         "typescriptreact",
-        "vue"    
+        "vue"
     },
     callback = function()
         vim.opt_local.tabstop = 2
