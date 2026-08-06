@@ -1,7 +1,6 @@
 return {
     "neovim/nvim-lspconfig",
     dependencies = {
-        "stevearc/conform.nvim",
         "mason-org/mason.nvim",
         "mason-org/mason-lspconfig.nvim",
         "hrsh7th/cmp-nvim-lsp",
@@ -14,7 +13,6 @@ return {
     },
 
     config = function()
-        require("conform").setup({})
         local cmp = require('cmp')
         local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
@@ -32,6 +30,19 @@ return {
                 function(server_name)
                     require("lspconfig")[server_name].setup {
                         capabilities = capabilities
+                    }
+                end,
+                ["lua_ls"] = function()
+                    local lspconfig = require("lspconfig")
+
+                    lspconfig.lua_ls.setup {
+                        settings = {
+                            Lua = {
+                                diagnostics = {
+                                    globals = { "vim" }
+                                }
+                            }
+                        }
                     }
                 end
             }
