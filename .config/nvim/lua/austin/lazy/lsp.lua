@@ -24,7 +24,8 @@ return {
                 "html",
                 "cssls",
                 "vtsls",
-                "lua_ls"
+                "lua_ls",
+                "emmet_language_server"
             },
 
             handlers = {
