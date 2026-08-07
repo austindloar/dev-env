@@ -24,7 +24,8 @@ return {
                 "cssls",
                 "vtsls",
                 "lua_ls",
-                "emmet_language_server"
+                "emmet_language_server",
+                "eslint"
             },
 
             handlers = {
