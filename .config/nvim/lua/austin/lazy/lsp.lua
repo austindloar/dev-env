@@ -37,6 +37,7 @@ return {
                     local lspconfig = require("lspconfig")
 
                     lspconfig.lua_ls.setup {
+                        capabilities = capabilities,
                         settings = {
                             Lua = {
                                 diagnostics = {
