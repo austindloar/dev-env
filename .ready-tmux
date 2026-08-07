@@ -3,3 +3,4 @@
 tmux neww -n neovim
 tmux send-keys -t "neovim" "nvim ." 
 tmux neww -n background
+tmux select-window -t "neovim"
