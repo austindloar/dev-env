@@ -9,12 +9,14 @@ vim.api.nvim_create_autocmd("FileType", {
         "html",
         "htmlangular",
         "htmldjango",
+        "javascript",
         "javascriptreact",
         "less",
         "sass",
         "scss",
         "svelte",
         "typescriptreact",
+        "typescript",
         "vue"
     },
     callback = function()
