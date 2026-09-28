@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-sudo pacman -S --needed --noconfirm git fzf base-devel ripgrep
